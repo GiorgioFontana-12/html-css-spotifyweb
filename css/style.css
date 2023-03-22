@@ -1,5 +1,80 @@
+/* start */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+/* helpars */
+.colorWhite {
+    color: white;
+}
+
+.fontSize24px {
+    font-size: 10px;
+}
+.paddingX1_5Rem{
+    padding: 1.5rem 0;
+}
+.width100{
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+.column {
+    flex-direction: column;
+}
+.wrap  {
+    flex-wrap: wrap;
+}
+
+.justifyFlexEnd{
+    justify-content: flex-end;
+}
+.positionFixed{
+    position: sticky;
+}
+
+body>div {
+    height: calc( 100vh - 90px);
+}
+
+/* aside */
+aside {
+    width: 15%;
+    background-color: #000000fa;
+}
+/* header */
+header {
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+.bgHeader {
+    background-color: #080B12fa;
+}
+#headerButton {
+    background-color: #080B12fa;
+    padding: 1em 3em;
+    border-color: white;
+    border-radius: 1000px;
+}
+#sidebar{
+
+}
+
+
+/* main */
+.width85 {
+    width: 85%;
+}
+
+
+
+/* footer */
+
+footer {
+    height: 90px;
+    background-color: #282828;
 }
