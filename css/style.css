@@ -27,6 +27,9 @@
 .textAlignCenter {
     text-align: center;
 }
+.paddingTop1Em{
+    padding-top: 1em;
+}
 .padding1Rem {
     padding: 1rem;
 }
@@ -103,6 +106,9 @@ body>div {
 .overflowYnone {
     overflow: none;
 }
+.borderRadius50 {
+    border-radius: 50%;
+}
 
 /* aside */
 aside {
@@ -154,7 +160,7 @@ main {
     width: calc(100% / 2 - 1rem);
 }
 .heightFill {
-    height: calc(100% - 90px + 1rem);
+    height: calc(100% - 80px);
 }
 
 
