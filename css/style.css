@@ -153,6 +153,9 @@ main {
 .width50 {
     width: calc(100% / 2 - 1rem);
 }
+.heightFill {
+    height: calc(100% - 90px + 1rem);
+}
 
 
 /* footer */
