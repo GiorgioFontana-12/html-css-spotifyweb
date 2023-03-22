@@ -9,24 +9,74 @@
     <title>Boolefy</title>
 </head>
 
-<body>
+<body class="overflowYnone">
     <div class="flex width100">
-        <aside>
-            <div class="flex column">
-
+        <aside class="paddingX04Rem flex column justifySpaceBetween">
+            <div class="flex column  alignItemCenter gap05Rem">
+                <img src="img/logo-small.svg" alt="logo-small">
+                <img class="opacity07" src="img/home.svg" alt="">
+                <img class="opacity07" src="img/search.svg" alt="">
+                <img class="opacity07" src="img/libreria.svg" alt="">
+            </div>
+            <div class="flex column alignItemCenter gap05Rem">
+                <img id="imgSmall" class="opacity07" src="img/download.svg" alt="">
+                <img id="profile" src="img/profile.svg" alt="">
             </div>
             
         </aside>    
-        <main class="width85">
-            <header class="positionFixed">
+        <main class="">
+            <header class="">
                 <section class="bgHeader flex justifyFlexEnd paddingX1_5Rem">
-                    <button id="headerButton" class="colorWhite fontSize24px"> EFFETTUA L'UPPGRADE</button>
+                    <button id="headerButton" class="colorWhite fontSize10px"> EFFETTUA L'UPPGRADE</button>
                 </section>        
             </header>
+
+            <section class="bgColor1 padding1Rem marginBottom90px">
+                <div class="flex gap2Rem-1Rem width100 justifyCenter wrap fontSize12px">
+                    <p class="colorGray">IN EVIDENZA</p>
+                    <p class="colorGray">PODCAST</p>
+                    <p class="colorGray">CLASSIFICHE</p>
+                    <p class="colorGray">GENERI E MOOD</p>
+                    <p class="colorGray">NUOVE USCITE</p>
+                    <p class="colorGray">SCOPRI</p>
+                </div>
+                <div class="overflowYScroll">
+                    <h2 class="colorWhite marginTop2rem marginBottom1_5Rem">Recently played</h2>
+                    <div class="flex wrap width100 gap1Rem ">
+                        <div class="flex column alignItemCenter width50 ">
+                            <img class="width100" src="img/metal_lifting.jpg" alt="">
+                        </div>
+
+                        <div class="flex column alignItemCenter width50 ">
+                            <img class="width100" src="img/metal_lifting.jpg" alt="">
+                        </div>
+
+                        <div class="flex column alignItemCenter width50 ">
+                            <img class="width100" src="img/metal_lifting.jpg" alt="">
+                        </div>
+                        <div class="flex column alignItemCenter width50 ">
+                            <img class="width100" src="img/metal_lifting.jpg" alt="">
+                        </div>
+                        <div class="flex column alignItemCenter width50 ">
+                            <img class="width100" src="img/metal_lifting.jpg" alt="">
+                        </div>
+                        <div class="flex column alignItemCenter width50 ">
+                            <img class="width100" src="img/metal_lifting.jpg" alt="">
+                        </div>
+                        <div class="flex column alignItemCenter width50 ">
+                            <img class="width100" src="img/metal_lifting.jpg" alt="">
+                        </div>
+                        <div class="flex column alignItemCenter width50 ">
+                            <img class="width100" src="img/metal_lifting.jpg" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
             
         </main>
     </div>
-    <footer>
+    <footer class="positionFixed">
 
     </footer>
 </body>

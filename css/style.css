@@ -5,15 +5,54 @@
     padding: 0;
 }
 /* helpars */
+.bgColor1 {
+    background-color: #141922;
+}
 .colorWhite {
     color: white;
 }
+.colorGray {
+    color: #797C80;
+}
 
-.fontSize24px {
+.opacity07{
+    opacity: 0.7;
+}
+.fontSize10px {
     font-size: 10px;
+}
+.fontSize12px {
+    font-size: 12px;
+}
+.textAlignCenter {
+    text-align: center;
+}
+.padding1Rem {
+    padding: 1rem;
+}
+
+.paddingTop1rem {
+    padding-top: 1rem;
+}
+.paddingX04Rem {
+    padding: 0.4rem 0;
 }
 .paddingX1_5Rem{
     padding: 1.5rem 0;
+}
+
+.marginTop2rem {
+    margin-top: 2rem;
+}
+.marginBottom1_5Rem{
+    margin-bottom: 1.5rem;
+}
+.marginBottom90px {
+    margin-bottom: 90px;
+}
+
+.margin0Auto {
+    margin: 0 auto;
 }
 .width100{
     width: 100%;
@@ -29,27 +68,69 @@
     flex-wrap: wrap;
 }
 
+.gap05Rem {
+    gap: 0.5rem;
+}
+.gap1Rem{
+    gap: 1rem;
+}
+.gap2Rem-1Rem {
+    gap: 2rem 1rem;
+}
+
 .justifyFlexEnd{
     justify-content: flex-end;
 }
+.justifySpaceBetween {
+    justify-content: space-between;
+}
+.justifyCenter {
+    justify-content: center;
+}
+.alignItemCenter {
+    align-items: center;
+}
 .positionFixed{
-    position: sticky;
+    position: fixed;
 }
 
 body>div {
     height: calc( 100vh - 90px);
 }
+.overflowYScroll {
+    overflow: scroll;
+}
+.overflowYnone {
+    overflow: none;
+}
 
 /* aside */
 aside {
-    width: 15%;
+    width: 50px;
     background-color: #000000fa;
+}
+
+#profile {
+    background-color: #808080 ;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+
+}
+#imgSmall {
+    width: 16px;
+    margin-left: -3px;
+}
+
+aside img {
+    width: 65%;
 }
 /* header */
 header {
     top: 0;
     right: 0;
     width: 100%;
+    z-index: -1;
 }
 .bgHeader {
     background-color: #080B12fa;
@@ -66,10 +147,12 @@ header {
 
 
 /* main */
-.width85 {
-    width: 85%;
+main {
+    width: calc(100% - 50px);
 }
-
+.width50 {
+    width: calc(100% / 2 - 1rem);
+}
 
 
 /* footer */
@@ -77,4 +160,7 @@ header {
 footer {
     height: 90px;
     background-color: #282828;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
 }
