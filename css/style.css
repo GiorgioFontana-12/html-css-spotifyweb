@@ -64,6 +64,10 @@
 .margin0Auto {
     margin: 0 auto;
 }
+
+.width90 {
+    width: 90;
+}
 .width100{
     width: 100%;
 }
@@ -120,6 +124,8 @@ body>div {
     border-radius: 50%;
 }
 
+
+
 /* aside */
 aside {
     width: 50px;
@@ -147,6 +153,15 @@ aside img {
 }
 .height300px {
     height: 300px;
+}
+.alignSelfFlexEnd {
+    align-self: self-end ;
+}
+hr{
+    border: 1px  solid  #797C80;
+}
+.height6px {
+    height: 6px;
 }
 /* header */
 header {
@@ -206,13 +221,7 @@ footer {
     .s-AlignItemsFlexStart{
         align-items: flex-start;
     }
-    #profile{
-        display: none;
-    }
-    #imgSmall{
-        display: none;
 
-    }
     #logo-small{
         display: none;
     }
@@ -228,6 +237,12 @@ footer {
     }
     .verticalAlignSuper {
         vertical-align: super;
+    }
+    .verticalAlignBAseline {
+        vertical-align: baseline;
+    }
+    .marginBottom-4px{
+        margin-bottom: -4px;
     }
     aside span {
         display: inline;
@@ -250,19 +265,33 @@ footer {
     .height60px {
         height: 40px;
     }
+    .sDisplayBlock {
+        display: block;
+    }
 }
 
 
-@media screen and (min-width: 1095px) {
+@media screen and (min-width: 860px) {
     .cardSong {
         width: calc(100% / 4 - 1rem);
     }
-
-
-
-
-
-
-
-
 }
+
+@media screen and (min-width: 1100px) {
+    .cardSong {
+        width: calc(100% / 6 - 1rem);
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .cardSong {
+        width: calc(100% / 8 - 1rem);
+    }
+}
+
+@media screen and (min-width: 2400px) {
+    .cardSong {
+        width: calc(100% / 12 - 1rem);
+    }
+}
+
