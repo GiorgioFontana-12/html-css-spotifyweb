@@ -14,6 +14,9 @@
 .colorGray {
     color: #797C80;
 }
+.colorBlack {
+    color: black;
+}
 
 .opacity07{
     opacity: 0.7;
@@ -42,6 +45,10 @@
 }
 .paddingX1_5Rem{
     padding: 1.5rem 0;
+}
+
+.marginTop1rem {
+    margin-top: 1rem;
 }
 
 .marginTop2rem {
@@ -90,6 +97,9 @@
 .justifyCenter {
     justify-content: center;
 }
+.xsAlignItemCenter {
+    align-items: center;
+}
 .alignItemCenter {
     align-items: center;
 }
@@ -100,8 +110,8 @@
 body>div {
     height: calc( 100vh - 90px);
 }
-.overflowYScroll {
-    overflow: scroll;
+.overflowYAuto {
+    overflow-y: auto;
 }
 .overflowYnone {
     overflow: none;
@@ -114,6 +124,7 @@ body>div {
 aside {
     width: 50px;
     background-color: #000000fa;
+    z-index: 3;
 }
 
 #profile {
@@ -127,16 +138,22 @@ aside {
     width: 16px;
     margin-left: -3px;
 }
+#Logo {
+    display: none;
+}
 
 aside img {
-    width: 65%;
+    width: 26px;
+}
+.height300px {
+    height: 300px;
 }
 /* header */
 header {
     top: 0;
     right: 0;
     width: 100%;
-    z-index: -1;
+    z-index: 2;
 }
 .bgHeader {
     background-color: #080B12fa;
@@ -147,12 +164,20 @@ header {
     border-color: white;
     border-radius: 1000px;
 }
-#sidebar{
 
+aside span {
+    display: none;
+}
+.xsDisplayNone {
+    display: none;
 }
 
 
+
 /* main */
+.marginTop50px {
+    margin-top: 82px;
+}
 main {
     width: calc(100% - 50px);
 }
@@ -160,7 +185,7 @@ main {
     width: calc(100% / 2 - 1rem);
 }
 .heightFill {
-    height: calc(100% - 80px);
+    height: 100% 
 }
 
 
@@ -172,4 +197,57 @@ footer {
     bottom: 0;
     width: 100%;
     z-index: 1000;
+}
+
+@media screen and (min-width: 639px){
+    aside{ width: 230px;
+
+    }
+    .s-AlignItemsFlexStart{
+        align-items: flex-start;
+    }
+    #profile{
+        display: none;
+    }
+    #imgSmall{
+        display: none;
+
+    }
+    #logo-small{
+        display: none;
+    }
+    #Logo {
+        display: block;
+        height: 44px;
+        width: auto;
+        margin-bottom: 1.5rem;
+       
+    }
+    .lineHeight26px {
+        line-height: 26px;
+    }
+    .verticalAlignSuper {
+        vertical-align: super;
+    }
+    aside span {
+        display: inline;
+    }
+    .sDisplayFlex {
+        display: flex;
+    }
+    .s-justifyContentFlexStart {
+        justify-content: flex-start;
+    }
+    .squareAddPlaylist {
+        height: 40px;
+        width: 40px;
+        background-color: #797C80;
+
+    }
+    .sPadding1Rem{
+        padding: 1rem;
+    }
+    .height60px {
+        height: 40px;
+    }
 }

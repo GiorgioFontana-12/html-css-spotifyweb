@@ -11,27 +11,74 @@
 
 <body >
     <div class="flex width100">
-        <aside class="paddingX04Rem flex column justifySpaceBetween">
-            <div class="flex column  alignItemCenter gap05Rem">
-                <img src="img/logo-small.svg" alt="logo-small">
-                <img class="opacity07" src="img/home.svg" alt="">
-                <img class="opacity07" src="img/search.svg" alt="">
-                <img class="opacity07" src="img/libreria.svg" alt="">
+        <aside class="paddingX04Rem flex column justifySpaceBetween s-justifyContentFlexStart sPadding1Rem">
+            <div class="flex column  xsAlignItemCenter s-AlignItemsFlexStart gap05Rem">
+                <img id="logo-small" src="img/logo-small.svg" alt="logo-small">
+                <img id="Logo" src="img/logo.svg" alt="Logo">
+                <div>
+                    <img class="opacity07" src="img/home.svg" alt="">
+                    <span class="colorWhite verticalAlignSuper lineHeight26px">Home</span>
+                </div>
+                <div>
+                    <img class="opacity07" src="img/search.svg" alt="">
+                    <span class="colorWhite verticalAlignSuper lineHeight26px">Cerca</span>
+                </div>
+                <div>
+                    <img class="opacity07" src="img/libreria.svg" alt="">
+                    <span class="colorWhite verticalAlignSuper lineHeight26px">La tua liberia</span>
+                </div>
             </div>
-            <div class="flex column alignItemCenter gap05Rem">
+            <div class="flex column xsAlignItemCenter gap05Rem">
                 <img id="imgSmall" class="opacity07" src="img/download.svg" alt="">
                 <img id="profile" src="img/profile.svg" alt="">
             </div>
+
+            <div class="column s-AlignItemsFlexStart xsDisplayNone sDisplayFlex colorGray " >
+                <h4 class="colorWhite marginTop2rem">PLAYLIST</h4>
+                <div class="flex justifyCenter alignItemCenter height60px marginTop1rem">
+                    <div class="squareAddPlaylist flex justifyCenter alignItemCenter ">
+                        <i class="colorBlack fa-solid fa-plus"></i>
+                    </div>
+                    <span class="colorGray padding1Rem">Crea Playlist</span>
+                </div>
+                <div class="height300px overflowYAuto width100 ">
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                    <p class="colorGray marginTop1rem">Nuova Playlist</p>
+                </div>
+
+            </div>
             
         </aside>    
-        <main class="">
-            <header class="">
+        <main class="marginTop50px">
+            <header class="positionFixed">
                 <section class="bgHeader flex justifyFlexEnd paddingX1_5Rem">
                     <button id="headerButton" class="colorWhite fontSize10px"> EFFETTUA L'UPPGRADE</button>
                 </section>        
             </header>
 
-            <section class="bgColor1 padding1Rem heightFill overflowYScroll">
+            <section class="bgColor1 padding1Rem heightFill overflowYAuto">
                 <div class="flex gap2Rem-1Rem width100 justifyCenter wrap fontSize12px">
                     <p class="colorGray">IN EVIDENZA</p>
                     <p class="colorGray">PODCAST</p>
@@ -114,7 +161,7 @@
             
         </main>
     </div>
-    <footer class="positionFixed">
+    <footer class="">
 
     </footer>
 </body>
