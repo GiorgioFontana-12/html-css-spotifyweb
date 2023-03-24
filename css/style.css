@@ -131,6 +131,14 @@ body>div {
     border-radius: 50%;
 }
 
+.width30vw {
+    width: 30vw;
+}
+
+.width40vw {
+    width: 40vw;
+}
+
 
 
 /* aside */
@@ -247,7 +255,7 @@ footer {
 .bgColorWhite {
     background-color: white;
 }
-
+/* 
 .height60px {
     height: 60px;
 }
@@ -257,8 +265,13 @@ footer {
 }
 .Width6px {
     width: 6px;
+} */
+.Width60px {
+    width: 60px;
 }
-
+.Width75px {
+    width:75px ;
+}
 
 
 
@@ -320,15 +333,11 @@ footer {
         flex-direction: row;
     }
 
-    .sWidth75px {
-        width:75px ;
-    }
-    .sHeight6px{
+
+    /* .sHeight6px{
         height: 6px;
-    }
-    .sWidth60px {
-        width: 60px;
-    }
+    } */
+
     .sjustifyContentFlexEnd {
         justify-content: flex-end;
     }
