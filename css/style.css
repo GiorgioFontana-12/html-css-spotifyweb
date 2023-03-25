@@ -132,11 +132,59 @@ body>div {
 }
 
 .width30vw {
-    width: 30vw;
+    width: 22vw;
 }
 
 .width40vw {
-    width: 40vw;
+    width: 30vw;
+}
+
+.colorGray:hover{
+    color: white ;
+}
+
+.hoverWhite:hover .squareAddPlaylist{
+    background-color: white ;
+}
+.hoverWhite:hover .colorGray{
+    color: white ;
+}
+
+.marginBottom08Rem{
+    margin-bottom: 0.8rem;
+}
+
+.hoverScale:hover {
+    transform: scale(1.2);
+}
+
+.scale1_5 {
+    scale: 1.5;
+}
+
+.hoverGreen:hover {
+    background-color: #ADFF2F;
+}
+.whiteSfere {
+    background-color: white;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    display: none;
+}
+.hoverGreen:hover .whiteSfere {
+    display: block;
+}
+
+.forceAlign {
+    margin-left: 5px;
+    margin-bottom: 8px;
+}
+.cardSong:hover img{
+    opacity: 0.4;
+}
+.cardSong:hover .playAbsolute{
+    opacity: 1;
 }
 
 
@@ -201,6 +249,10 @@ aside span {
 .xsDisplayNone {
     display: none;
 }
+#headerButton:hover {
+    transform: scale(1.2);
+    margin-right: 22px;
+}
 
 
 
@@ -215,6 +267,28 @@ main {
     width: calc(100% / 2 - 1rem);
 }
 
+.positionRelative {
+    position: relative;
+}
+
+.positionAbsolute {
+    position: absolute;
+    bottom: 18px;
+    right: calc(50% - 15px) ;
+}
+.playAbsolute {
+    position: absolute;
+    top: calc(50% - 8px);
+    right: calc(50% - 8px);
+    scale: 5;
+    opacity: 0;
+    
+}
+.borderGreen {
+    height: 3px;
+    width: 30px;
+    background-color: #ADFF2F;
+}
 
 
 /* footer */
@@ -232,8 +306,8 @@ footer {
     width: 40px;
 }
 
-.width180px {
-    width: 180px;
+.maxWidth180px {
+    max-width: 300px;
 }
 
 
@@ -273,9 +347,32 @@ footer {
     width:75px ;
 }
 
+.paddingTop0 {
+    padding-top: 0 !important;
+}
+
+.paddingBottom0 {
+    padding-bottom: 0 !important;
+}
+@media screen and (max-width: 727px){
+    .positionAbsolute {
+        bottom: -8px;
+    }
+
+}
+
 
 
 @media screen and (min-width: 639px){
+
+    .sboederLeftGreen{
+        border-left: solid 2px #ADFF2F;
+    }
+
+    .sPadding1Rem {
+        padding: 1rem;
+    }
+
     aside{ width: 230px;
 
     }
